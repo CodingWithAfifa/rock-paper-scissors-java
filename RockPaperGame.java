@@ -22,7 +22,8 @@ public class RockPaperGame {
 				System.out.println("\n\tChoose the given number\n ");
 				System.out.println("0 - Rock \t 1 - Paper \t 2 - Scissor\n");
 				userNum = sc.nextInt();
-
+				
+				// take a random number 
 				Random rd = new Random();
 				compNum = rd.nextInt(3);
 
